@@ -109,7 +109,6 @@ function App() {
       realName: newRealName,
       universe: newUniverse,
       upgradeCount: 0,
-      story: "Nouvel héros ajouté par l'utilisateur."
     };
     setCharacters([...characters, newChar]);
     setNewName("");
